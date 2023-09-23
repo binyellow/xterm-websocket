@@ -1,0 +1,29 @@
+{
+  "name": "terminal",
+  "version": "0.0.1",
+  "description": "provide services for previews",
+  "main": "dist/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "branhuang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "js-yaml": "^4.1.0",
+    "node-pty": "^1.0.0",
+    "os": "^0.1.2",
+    "http-proxy-middleware": "^2.0.6",
+    "portscanner": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-ws": "^3.0.1",
+    "@types/node": "^20.6.2",
+    "ts-node": "^10.9.1"
+  }
+}
